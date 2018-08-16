@@ -1,7 +1,7 @@
 var playlist = { artist: "song" }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
+  delete playlist[artistName]
   return playlist
 }
 
